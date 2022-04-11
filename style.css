@@ -1,0 +1,50 @@
+body {
+    font: 18px Verdana;
+    color: #FFF;
+    background-image: linear-gradient(to right, blue , violet);
+}
+
+#container {
+    margin: 0px auto;
+    width: 600px;
+}
+#tabella {
+    z-index: 1;
+    margin: 10px 0 0;
+}
+#tabella div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px black;
+    background-image: linear-gradient(to left, green, brown);
+    z-index: 2;
+}
+#tabella div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+}
+#pulsanti {
+    text-align: center;
+    margin: 20px;
+    display: block;
+}
+#pulsanti .button {
+    text-transform: uppercase;
+    background: red;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
